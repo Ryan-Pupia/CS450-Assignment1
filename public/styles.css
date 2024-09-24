@@ -1,0 +1,123 @@
+#resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px;
+    border-bottom: #000 solid 1px;
+    padding: 5px;
+}
+
+.Section_Content {
+    flex-shrink: 2;
+    flex-basis: 70%;
+}
+
+#Personal_Info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px;
+    border-bottom: solid 5px #eba134;
+}
+
+#Skill_List {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: start;
+    height: 100px;
+}
+#Skill_List p{
+    flex-basis: 32%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#Sect_Title_div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sect_Title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#Name_Title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+#Name_Title p{
+    margin: 2px;
+    padding: 0px
+}
+
+.Past_Job {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.Past_Job p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Joblist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Past_Education {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.Past_Education p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.subheading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#Name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#Last_Section {
+    border-bottom: 0px;
+}
